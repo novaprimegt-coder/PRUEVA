@@ -10,8 +10,9 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTciIGZpbGw9IiMyMDM0MmIiLz48Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIxMyIgZmlsbD0iI2Y0YmE1MCIvPjxnIHN0cm9rZT0iI2Y0YmE1MCIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxwYXRoIGQ9Ik0zMiA3djdNMzIgNTB2N003IDMyaDdNNTAgMzJoN00xNCAxNGw1IDVNNDUgNDVsNSA1TTUwIDE0bC01IDVNMTkgNDVsLTUgNSIvPjwvZz48L3N2Zz4K" rel="icon" type="image/svg+xml"/>
-<style>:root{--forest:#1e3028;--forest-mid:#294238;--forest-light:#3b5444;--cream:#f7f4ed;--paper:#fbf9f4;--cream-deep:#eee9df;--ink:#26312c;--muted:#777a70;--gold:#e9b55c;--gold-light:#f5cc85;--line:#dfddd3;--serif:'Playfair Display',Georgia,'Times New Roman',serif;--sans:'DM Sans',Arial,sans-serif;--display:'Manrope',var(--sans);--wrap:1320px;--ease:cubic-bezier(.2,.85,.23,1)}
+
+<style>
+:root{--forest:#1e3028;--forest-mid:#294238;--forest-light:#3b5444;--cream:#f7f4ed;--paper:#fbf9f4;--cream-deep:#eee9df;--ink:#26312c;--muted:#777a70;--gold:#e9b55c;--gold-light:#f5cc85;--line:#dfddd3;--serif:'Playfair Display',Georgia,'Times New Roman',serif;--sans:'DM Sans',Arial,sans-serif;--display:'Manrope',var(--sans);--wrap:1320px;--ease:cubic-bezier(.2,.85,.23,1)}
 *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;overflow-x:hidden;color:var(--ink);background:var(--paper);font-family:var(--sans);-webkit-font-smoothing:antialiased}body.menu-open{overflow:hidden}img{display:block;max-width:100%}a{text-decoration:none;color:inherit}button,input,select{font:inherit}button{cursor:pointer}button,a{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:4px}.icon{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round;flex-shrink:0}.svg-defs{position:absolute;width:0;height:0;overflow:hidden}.wrap{width:min(calc(100% - 104px),var(--wrap));margin-inline:auto}.section{padding-block:125px}.section-index{display:inline-block;font-family:var(--display);font-size:.72rem;letter-spacing:.16em;font-weight:800;color:#8e7a51}.section-index--light{color:var(--gold-light)}.display-heading{font-size:clamp(2.6rem,5vw,5.6rem);line-height:1.12;letter-spacing:-.065em;font-weight:650;font-family:var(--display);margin:25px 0}.display-heading em{font-family:var(--serif);font-weight:500;letter-spacing:-.045em}.text-link{display:inline-flex;align-items:center;gap:24px;border-bottom:1px solid currentColor;padding-bottom:9px;font-weight:700;font-size:.85rem;transition:gap .3s,color .3s}.text-link:hover{gap:33px;color:#a27828}.text-link .icon{width:17px;height:17px}.text-link--button{border-top:0;border-left:0;border-right:0;background:transparent;padding-left:0;padding-right:0;text-align:left}.btn{min-height:58px;border:1px solid transparent;padding:0 27px;display:inline-flex;align-items:center;justify-content:center;gap:24px;border-radius:3px;font-family:var(--display);font-size:.79rem;letter-spacing:.005em;font-weight:800;white-space:nowrap;transition:background .35s,transform .35s,border-color .35s,color .35s}.btn:hover{transform:translateY(-3px)}.btn .icon{width:17px;height:17px}.btn--gold{color:var(--forest);background:var(--gold)}.btn--gold:hover{background:var(--gold-light)}.btn--outline-light{border-color:rgba(255,255,255,.38);color:#fff}.btn--outline-light:hover{border-color:#fff;background:rgba(255,255,255,.06)}.btn--white{background:#fff;color:var(--forest)}.btn--white:hover{background:var(--gold-light)}.btn--forest{background:var(--forest);color:#fff}.btn--forest:hover{background:var(--forest-light)}.btn--dark{background:var(--forest);color:#fff}.btn--dark:hover{background:#395446}
 .topbar{min-height:36px;background:#182820;color:#e0e6dc;display:flex;gap:18px;align-items:center;justify-content:center;padding:8px 12px;font-size:.68rem;letter-spacing:.06em;font-weight:600;text-align:center}.topbar__mark{font-size:.95rem;color:var(--gold)}.topbar__dot{height:3px;width:3px;border-radius:50%;background:var(--gold)}.site-header{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid #e8e7df;transition:box-shadow .25s}.site-header.is-sticky{position:sticky;top:0;box-shadow:0 12px 26px rgba(21,34,26,.08)}.nav-container{height:91px;display:flex;align-items:center;justify-content:space-between;gap:35px}.brand{display:inline-flex;align-items:center;gap:12px;min-width:154px}.brand__sun{width:40px;height:40px;position:relative;border-radius:50%;background:repeating-conic-gradient(from 0deg,#ce8c2d 0deg 9deg,transparent 9deg 30deg);display:grid;place-items:center;flex-shrink:0}.brand__sun span{width:23px;height:23px;background:#cf8e36;border:4px solid var(--paper);border-radius:50%;display:block}.brand__words{display:flex;flex-direction:column;line-height:1;gap:4px}.brand__words strong{font-family:var(--serif);font-size:1.7rem;font-weight:700;letter-spacing:-.07em}.brand__words small{font-family:var(--display);font-size:.56rem;letter-spacing:.25em;font-weight:800}.desktop-nav{display:flex;align-items:center;gap:clamp(16px,2.4vw,37px)}.desktop-nav a{font-size:.77rem;font-weight:750;color:#4b534c;transition:color .2s}.desktop-nav a:hover{color:#b88233}.nav-book{display:flex;align-items:center;gap:16px;background:var(--forest);color:#fff;padding:16px 20px;font-size:.76rem;font-weight:750;border:1px solid var(--forest);transition:background .3s}.nav-book:hover{background:var(--forest-light)}.nav-book .icon{width:15px}.menu-toggle{display:none;border:1px solid #d6dacf;background:transparent;color:var(--forest);width:46px;height:46px;align-items:center;justify-content:center}.mobile-nav{display:none}
 .hero{background:var(--forest);min-height:750px;position:relative;color:#fff;overflow:hidden;isolation:isolate}.hero__grain{position:absolute;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(circle at 18% 65%,#5b795f 0,transparent 30%),radial-gradient(circle at 63% 12%,#4e654a 0,transparent 40%),radial-gradient(circle at 90% 85%,#09100e 0,transparent 38%)}.hero__inner{position:relative;display:grid;grid-template-columns:52% 48%;align-items:center;min-height:750px;padding-top:42px;padding-bottom:68px}.hero__copy{position:relative;z-index:5;padding-right:20px}.eyebrow{display:inline-flex;align-items:center;gap:13px;font-size:.71rem;letter-spacing:.17em;font-weight:800;font-family:var(--display)}.eyebrow--light{color:var(--gold-light)}.eyebrow__line{width:34px;height:1px;background:currentColor}.hero h1{font-family:var(--display);font-size:clamp(3.6rem,5.7vw,6.6rem);font-weight:650;letter-spacing:-.075em;line-height:1.105;max-width:750px;margin:27px 0 24px}.hero h1 em{font-family:var(--serif);font-weight:400;letter-spacing:-.065em;color:var(--gold-light)}.hero__outlined{color:#fff}.hero__lead{max-width:450px;color:#cdd8ce;font-size:1.03rem;line-height:1.9;margin:0 0 31px}.hero__actions{display:flex;gap:13px;flex-wrap:wrap}.hero__trust{display:flex;align-items:center;gap:20px;margin-top:47px;font-size:.72rem;color:#ced5ca;line-height:1.6}.hero__rating{font-family:var(--display);font-size:1.8rem;color:#fff;font-weight:800;display:flex;align-items:center;gap:11px}.hero__rating span{font-size:.76rem;letter-spacing:.14em;color:var(--gold)}.hero__trust-divider{height:28px;width:1px;background:#708074}.hero__trust strong{color:#fff;font-weight:700}.hero__visual{position:relative;height:630px;min-width:0}.hero__sun-ring{width:690px;height:690px;border:1px solid rgba(227,182,99,.15);position:absolute;top:-35px;left:-52px;border-radius:50%;display:grid;place-items:center;z-index:-1}.hero__sun-ring::before,.hero__sun-ring::after{content:'';position:absolute;inset:55px;border:1px solid rgba(227,182,99,.10);border-radius:50%}.hero__sun-ring::after{inset:112px}.hero__sun-ring span{font-size:28rem;color:#405845;opacity:.18;line-height:1}.hero__photo{position:absolute;overflow:hidden;margin:0;background:#75816b;border:7px solid rgba(255,255,255,.12);box-shadow:0 28px 80px rgba(0,0,0,.28)}.hero__photo img{width:100%;height:100%;object-fit:cover;will-change:transform}.hero__photo--primary{width:72%;height:73%;top:3%;right:6%;border-radius:50% 50% 6px 6px / 36% 36% 6px 6px;transform:rotate(2deg)}.hero__photo--primary img{transform:scale(1.05)}.hero__photo--primary figcaption{position:absolute;bottom:21px;left:24px;right:24px;letter-spacing:.16em;font-size:.56rem;font-weight:800;color:white;text-shadow:0 1px 6px #000;background:rgba(18,26,20,.4);padding:10px 12px}.hero__photo--secondary{width:37%;height:42%;bottom:2%;left:0;border-radius:4px 4px 49% 49% / 4px 4px 27% 27%;transform:rotate(-8deg);z-index:2}.hero__seal{position:absolute;bottom:8%;right:4%;width:136px;height:136px;border-radius:50%;background:var(--gold);color:var(--forest);display:grid;place-items:center;transform:rotate(13deg);z-index:3;box-shadow:0 18px 28px rgba(0,0,0,.18)}.hero__seal>span{text-align:center;font-weight:900;font-size:1.05rem;line-height:1.1;font-family:var(--display);transform:rotate(-13deg)}.hero__seal svg{position:absolute;inset:0;width:100%;height:100%;fill:var(--forest);font-weight:700;font-size:9.2px;letter-spacing:2.4px;animation:sealSpin 32s linear infinite}.hero__photo-note{position:absolute;bottom:-12px;right:5%;color:#c2cfc3;font-size:.62rem;letter-spacing:.15em;font-weight:800}.hero__scroll{position:absolute;left:max(calc((100vw - var(--wrap))/2),52px);bottom:27px;font-size:.57rem;letter-spacing:.2em;display:flex;align-items:center;gap:13px;color:#c4cfc4}.hero__scroll span{width:37px;height:1px;background:var(--gold)}@keyframes sealSpin{to{transform:rotate(360deg)}}
@@ -236,8 +237,10 @@
   .hero__seal { width: 73px; height: 73px; }
   .gallery__grid { grid-template-rows: 205px 165px 145px; }
 }
+
 </style>
-<style>/* RESTAURANTE EL SOL DEL PUEBLO — EXPERIENCIA EDITORIAL V1.1.0
+<style>
+/* RESTAURANTE EL SOL DEL PUEBLO — EXPERIENCIA EDITORIAL V1.1.0
    Capa visual sobre la versión estable V1.0.1. Información, enlaces y funciones conservados.
    Identidad propuesta para demostración: el restaurante aún no proporcionó logotipo oficial. */
 :root {
@@ -599,8 +602,10 @@ body { background:var(--paper); color:var(--ink); }
   *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; }
   .hero__seal svg,.ticker__track { animation:none !important; }
 }
+
 </style>
-<style>/* V1.2.0 — ÚNICAMENTE LA SECCIÓN DE MENÚ.
+<style>
+/* V1.2.0 — ÚNICAMENTE LA SECCIÓN DE MENÚ.
    Categorías abribles con tarjetas de platillos en pares (2 columnas) en todos los tamaños. */
 .menu-section {
   background:radial-gradient(circle at 92% 4%,rgba(238,194,125,.18),transparent 31%),
@@ -781,8 +786,10 @@ body { background:var(--paper); color:var(--ink); }
   .menu-card { padding:10px 9px; }
 }
 @media(prefers-reduced-motion:reduce){.menu-card {animation:none !important;}}
+
 </style>
-<style>/* RESTAURANTE EL SOL DEL PUEBLO — EDICIÓN V1.3.0
+<style>
+/* RESTAURANTE EL SOL DEL PUEBLO — EDICIÓN V1.3.0
    Renovación visual sin cambiar la información ni las funciones de V1.2.0.
    La carta sigue mostrando exactamente dos platillos por fila. */
 :root {
@@ -1124,8 +1131,10 @@ body {background:#faf8f2;color:var(--ink)}
  .brand__sun,.topbar__mark {animation:none!important}
  .menu-card,.gallery__item,.btn {transition:none!important}
 }
+
 </style>
-<style>/* V1.4.0 — Solo mejoras de botones y carta de menú.
+<style>
+/* V1.4.0 — Solo mejoras de botones y carta de menú.
    Prioridad: dos platos por fila y lectura cómoda desde 320px. */
 
 /* Enlaces antes subrayados -> botones actuales, visibles y con superficie táctil. */
@@ -1514,8 +1523,10 @@ button.text-link:hover,
  .menu-card__illustration {width:47px;height:47px;border-radius:15px}
  .menu-card__illustration .icon {width:24px;height:24px}
 }
+
 </style>
-<style>/* V1.7.0 — Exclusivamente la carta digital, sin fotografías. */
+<style>
+/* V1.7.0 — Exclusivamente la carta digital, sin fotografías. */
 .menu-section .section-heading {margin-bottom:20px;}
 .carta-entry {display:grid;grid-template-columns:minmax(0,1.5fr) minmax(210px,.7fr);gap:22px;align-items:stretch;padding:clamp(22px,4vw,42px);border:1px solid rgba(52,92,69,.14);border-radius:24px;background:#fefdf9;box-shadow:0 18px 44px rgba(22,57,35,.08);position:relative;z-index:1;}
 .carta-entry__copy {min-width:0;display:flex;flex-direction:column;align-items:flex-start;}
@@ -1581,8 +1592,10 @@ button.text-link:hover,
  .carta-group__count {font-size:.55rem;padding:6px 8px;}
 }
 @media(prefers-reduced-motion:reduce){.carta-entry__button,.carta-filter,.carta-product,.carta-product__consult{transition:none!important;}}
+
 </style>
-<style>/* V1.8.0 — GooeyNav únicamente en las categorías de la carta. */
+<style>
+/* V1.8.0 — GooeyNav únicamente en las categorías de la carta. */
 .carta-filters.gooey-nav {
   display:block;
   overflow-x:auto;
@@ -1684,8 +1697,10 @@ button.text-link:hover,
 .gooey-nav__fallback {transition:none!important;}
   .gooey-nav.is-gooey-ready .carta-filter {transition:none!important;}
 }
+
 </style>
-<style>/* V1.9.0: restricciones visuales solicitadas (no constituyen DRM). */
+<style>
+/* V1.9.0: restricciones visuales solicitadas (no constituyen DRM). */
 html, body { -webkit-user-select:none; -moz-user-select:none; user-select:none; -webkit-touch-callout:none; touch-action:pan-x pan-y; }
 *, *::before, *::after { -webkit-tap-highlight-color:transparent; }
 img, svg, canvas, video { -webkit-user-drag:none; user-drag:none; }
@@ -1707,33 +1722,94 @@ body.carta-page { min-height:100dvh; background:#f7f7f1; display:flex; flex-dire
 .carta-page__footer a {color:#1b4a34;text-decoration:none;font-weight:800;}
 @media(max-width:540px){.carta-page__header-inner{min-height:70px}.carta-page__back{padding:10px 13px;font-size:.7rem}.carta-page__intro{font-size:.78rem}}
 @media print { body{visibility:hidden!important;} }
+
+</style>
+<style>
+/* V1.10.0 — Galería circular de productos. No altera la sección de fotografías. */
+.carta-page .carta-panel {overflow:clip;}
+.carta-page .carta-group {border-top:1px solid #eee9dc;padding-top:22px;}
+.carta-page .circular-carta__heading {padding:0 4px 12px;}
+.circular-carta__shell {position:relative;isolation:isolate;border-radius:22px;background:linear-gradient(160deg,#faf6ed,#f3f0e7 48%,#f8f7f0);border:1px solid rgba(157,142,104,.2);overflow:hidden;padding:14px 0 17px;}
+.circular-carta__shell::before {content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 28%,rgba(205,176,113,.19),transparent 46%),radial-gradient(circle at 10% 72%,rgba(31,83,56,.08),transparent 43%);pointer-events:none;}
+.circular-carta__shell::after {content:'EL SOL DEL PUEBLO';position:absolute;top:22px;left:0;right:0;text-align:center;color:rgba(33,71,49,.07);font:800 clamp(1.7rem,5vw,4rem)/1 var(--display);letter-spacing:-.08em;pointer-events:none;white-space:nowrap;}
+.circular-carta__stage {height:clamp(305px,37vw,420px);perspective:1100px;position:relative;overflow:hidden;touch-action:pan-y;outline-offset:-5px;cursor:grab;user-select:none;-webkit-user-select:none;}
+.circular-carta__stage:active {cursor:grabbing;}
+.circular-carta__stage:focus-visible {outline:3px solid #b38e57;border-radius:12px;}
+.circular-carta__track {position:absolute;inset:0;transform-style:preserve-3d;}
+.circular-carta__card {position:absolute;top:50%;left:50%;height:clamp(252px,31vw,315px);border-radius:23px;overflow:hidden;border:1px solid rgba(55,90,62,.18);background:#fffefa;box-shadow:0 15px 38px rgba(30,53,38,.15);will-change:transform;display:flex;flex-direction:column;transition:box-shadow .3s,border-color .3s;backface-visibility:hidden;}
+.circular-carta__card[data-active='true'] {box-shadow:0 20px 46px rgba(23,65,42,.24);border-color:#b99b65;}
+.circular-carta__art {height:46%;min-height:98px;position:relative;overflow:hidden;background:linear-gradient(145deg,#153f30,#286247 72%,#456e56);display:grid;place-items:center;color:#eacb91;flex:none;}
+.circular-carta__art::before {content:'';position:absolute;inset:13px;border:1px solid rgba(245,213,146,.32);border-radius:17px;}
+.circular-carta__art-halo {position:absolute;width:180px;height:180px;border:1px solid rgba(224,196,128,.2);border-radius:50%;box-shadow:0 0 0 19px rgba(225,196,130,.065),0 0 0 42px rgba(225,196,130,.045);top:0;transform:translateY(-14%);}
+.circular-carta__art-sun {display:grid;place-items:center;width:66px;height:66px;border:1px solid rgba(240,208,151,.6);border-radius:50%;background:rgba(255,252,231,.09);z-index:1;box-shadow:0 0 30px rgba(237,210,140,.13);}
+.circular-carta__art-sun svg {width:34px;height:34px;}
+.circular-carta__art-name {position:absolute;bottom:13px;left:0;right:0;text-align:center;color:rgba(251,234,195,.8);font:800 .56rem/1 var(--display);letter-spacing:.24em;}
+.circular-carta__card[data-category='postres'] .circular-carta__art {background:linear-gradient(145deg,#613f35,#a87453);}
+.circular-carta__card[data-category='bebidas'] .circular-carta__art {background:linear-gradient(145deg,#23515b,#417d72);}
+.circular-carta__card[data-category='cenas'] .circular-carta__art {background:linear-gradient(145deg,#142d35,#42564f);}
+.circular-carta__card[data-category='almuerzos'] .circular-carta__art {background:linear-gradient(145deg,#3c492c,#687343);}
+.circular-carta__card-content {display:flex;flex-direction:column;flex:1;align-items:stretch;padding:clamp(12px,1.7vw,18px);gap:7px;min-height:0;}
+.circular-carta__ordinal {font:800 .58rem/1 var(--display);letter-spacing:.17em;color:#ab8451;}
+.circular-carta__card-content h5 {font:650 clamp(.95rem,1.4vw,1.28rem)/1.19 var(--serif);letter-spacing:-.035em;color:#19412e;margin:1px 0 0;overflow-wrap:break-word;hyphens:auto;}
+.circular-carta__brand {font:800 .47rem/1.1 var(--display);letter-spacing:.12em;color:#85947d;margin-top:auto;}
+.circular-carta__consult {margin-top:3px;min-height:39px;width:100%;background:#1b4735;border:1px solid #1b4735;border-radius:11px;color:#fffefa;font:800 .68rem/1.15 var(--display);padding:8px 9px;cursor:pointer;transition:background .2s,transform .2s;}
+.circular-carta__consult:hover {background:#2b694a;transform:translateY(-1px);}
+.circular-carta__consult:focus-visible {outline:2px solid #c49a57;outline-offset:2px;}
+.circular-carta__controls {position:relative;z-index:1;display:flex;justify-content:center;align-items:center;gap:20px;margin:0 auto;padding:3px 10px 0;}
+.circular-carta__arrow {height:42px;width:42px;border:1px solid rgba(28,72,53,.17);border-radius:50%;background:#1c4835;color:white;font:400 2rem/1 var(--sans);display:grid;place-items:center;cursor:pointer;transition:background .2s,transform .2s;}
+.circular-carta__arrow:hover {background:#326950;transform:translateY(-2px);}
+.circular-carta__arrow:disabled {opacity:.3;cursor:default;}
+.circular-carta__status {min-width:150px;display:grid;grid-template-columns:1fr auto;align-items:center;justify-content:center;text-align:center;column-gap:1px;color:#214a36;}
+.circular-carta__status strong {font:800 1.27rem/1 var(--display);justify-self:end;}
+.circular-carta__status>span {justify-self:start;font:750 .83rem/1 var(--display);color:#8c947f;}
+.circular-carta__status small {grid-column:1/-1;margin-top:4px;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#68806a;font:800 .58rem/1.25 var(--display);letter-spacing:.035em;}
+.circular-carta__hint {position:relative;text-align:center;margin:12px 12px 0;font:700 .62rem/1.4 var(--display);color:#718373;}
+@media(max-width:640px){
+ .carta-page .circular-carta__heading {align-items:flex-start;gap:8px;}
+ .carta-page .circular-carta__heading h4 {font-size:1.65rem;}
+ .carta-page .circular-carta__heading p {font-size:.71rem;}
+ .carta-page .circular-carta__heading .carta-group__count {align-self:flex-start;}
+ .circular-carta__shell {border-radius:17px;padding-top:7px;}
+ .circular-carta__stage {height:340px;}
+ .circular-carta__card {height:265px;border-radius:16px;}
+ .circular-carta__art {height:42%;min-height:102px;}
+ .circular-carta__card-content {padding:12px;gap:5px;}
+ .circular-carta__card-content h5 {font-size:1.04rem;}
+ .circular-carta__brand {font-size:.43rem;}
+ .circular-carta__consult {min-height:37px;font-size:.62rem;padding:7px;}
+ .circular-carta__controls {gap:14px;}
+ .circular-carta__arrow {width:39px;height:39px;}
+ .circular-carta__hint {font-size:.59rem;}
+}
+@media(max-width:370px){.circular-carta__stage {height:326px;}.circular-carta__card {height:254px;}.circular-carta__card-content h5 {font-size:.96rem;}}
+@media(prefers-reduced-motion:reduce){.circular-carta__card,.circular-carta__consult,.circular-carta__arrow{transition:none!important;}}
+
 </style>
 </head>
 <body class="carta-page">
 <header class="carta-page__header">
 <div class="wrap carta-page__header-inner">
-<a aria-label="El Sol del Pueblo, volver a la página principal" class="brand" href="index.html">
+<a aria-label="El Sol del Pueblo, volver a la página principal" class="brand" data-back-main="" href="index.html#menu">
 <span aria-hidden="true" class="brand__sun"><span></span></span>
 <span class="brand__words"><strong>EL SOL</strong><small>DEL PUEBLO</small></span>
 </a>
-<a class="carta-page__back" href="index.html">Volver al sitio</a>
+<a class="carta-page__back" data-back-main="" href="index.html#menu">Volver a la página</a>
 </div>
 </header>
 <main class="carta-page__main wrap" id="carta">
 <span class="section-index">EL SOL DEL PUEBLO · CHIANTLA</span>
 <h1 class="carta-page__title">Nuestra <em>carta.</em></h1>
-<p class="carta-page__intro">Desayunos, almuerzos, cenas, postres y bebidas. Elige una categoría o descubre todas nuestras opciones.</p>
+<p class="carta-page__intro">Desayunos, almuerzos, cenas, postres y bebidas. Elige una categoría para descubrir sus opciones.</p>
 <div class="carta-panel" id="cartaContents">
 <div class="carta-panel__head">
-<div><span class="carta-panel__eyebrow">CARTA DIGITAL</span><h3>Todos los sabores.</h3><p>Elige una categoría o consulta la carta completa.</p></div>
+<div><span class="carta-panel__eyebrow">CARTA DIGITAL</span><h3>Todos los sabores.</h3><p>Elige una categoría y explora sus platillos.</p></div>
 </div>
 <div aria-label="Filtrar productos por categoría" class="carta-filters gooey-nav" role="group">
 <div class="gooey-nav__stage" id="cartaGooeyStage">
 <canvas aria-hidden="true" class="gooey-nav__canvas"></canvas>
 <span aria-hidden="true" class="gooey-nav__fallback"></span>
 <div class="gooey-nav__list">
-<button aria-pressed="true" class="carta-filter is-active" data-carta-filter="todos" type="button">Toda la carta</button>
-<button aria-pressed="false" class="carta-filter" data-carta-filter="desayunos" type="button">Desayunos</button>
+<button aria-pressed="true" class="carta-filter is-active" data-carta-filter="desayunos" type="button">Desayunos</button>
 <button aria-pressed="false" class="carta-filter" data-carta-filter="almuerzos" type="button">Almuerzos</button>
 <button aria-pressed="false" class="carta-filter" data-carta-filter="cenas" type="button">Cenas</button>
 <button aria-pressed="false" class="carta-filter" data-carta-filter="postres" type="button">Postres</button>
@@ -1749,72 +1825,231 @@ body.carta-page { min-height:100dvh; background:#f7f7f1; display:flex; flex-dire
 <span>Restaurante El Sol del Pueblo · Chiantla, Huehuetenango</span>
 <a href="tel:+50240420679">+502 4042 0679</a>
 </footer>
-<script>'use strict';
-// Carta digital trasladada de V1.8.0 sin alterar sus productos ni sus filtros.
-const PHONE='50240420679';
-const MENU = {
-  desayunos: {title:'Desayunos',note:'Opciones de desayuno identificadas en la carta.',items:['Omelette','Campesino','Típico americano','Panini de huevos','Motuleños','Chilaquiles en salsa roja','Copa de frutas con yogurt y granola','Panqueques con fruta']},
-  almuerzos: {title:'Almuerzos',note:'Platillos identificados en la sección de almuerzos.',items:['Churrasco','Pollo asado','Camarones al ajo','Mojarras fritas']},
-  cenas: {title:'Cenas',note:'El restaurante ofrece cenas. Consulta cuáles de estos platos de la carta general están disponibles por la noche.',items:['Churrasco','Pollo asado','Camarones al ajo','Mojarras fritas']},
-  postres: {title:'Postres',note:'Postres identificados en la carta proporcionada.',items:['Crepas de frutas','Crepas mixtas']},
-  bebidas: {title:'Bebidas',note:'La carta distingue bebidas calientes y frías; consulta las variedades disponibles.',items:['Bebidas calientes','Bebidas frías']}
-};
-const $ = selector => document.querySelector(selector);
-const $$ = selector => Array.from(document.querySelectorAll(selector));
-// V1.7.0: catálogo 100 % textual y agrupado; no se cargan fotografías del menú.
-const cartaGroups = $('#cartaGroups');
-const cartaFilters = $$('.carta-filter');
-let cartaBuilt = false;
-function buildCarta() {
-  if (cartaBuilt) return;
-  const fragment = document.createDocumentFragment();
-  Object.entries(MENU).forEach(([category,entry], groupIndex) => {
-    const section = document.createElement('section');
-    section.className = 'carta-group';
-    section.dataset.cartaGroup = category;
-    section.setAttribute('aria-labelledby','cartaGroupTitle-'+category);
-    const heading = document.createElement('div');heading.className='carta-group__heading';
-    const headingCopy = document.createElement('div');
-    const kicker = document.createElement('span');kicker.className='carta-group__kicker';kicker.textContent='0'+(groupIndex+1)+' / EL SOL DEL PUEBLO';
-    const title = document.createElement('h4');title.id='cartaGroupTitle-'+category;title.textContent=entry.title;
-    const note = document.createElement('p');note.textContent=entry.note;
-    const count = document.createElement('span');count.className='carta-group__count';count.textContent=entry.items.length+' opciones';
-    headingCopy.append(kicker,title,note);heading.append(headingCopy,count);
-    const grid = document.createElement('div');grid.className='carta-products';
-    entry.items.forEach((name,i) => {
-      const item = document.createElement('article');item.className='carta-product';
-      const info = document.createElement('div');info.className='carta-product__info';
-      const ordinal = document.createElement('span');ordinal.className='carta-product__ordinal';ordinal.textContent=String(i+1).padStart(2,'0');
-      const product = document.createElement('h5');product.textContent=name;
-      info.append(ordinal,product);
-      const consult = document.createElement('button');consult.type='button';consult.className='carta-product__consult';consult.textContent='Consultar';consult.setAttribute('aria-label','Consultar '+name+' por WhatsApp');
-      consult.addEventListener('click',()=>{
-        const context=category==='cenas'?' (confirmar disponibilidad por la noche)':'';
-        const message='Hola, quisiera consultar la disponibilidad y el precio de: '+name+context+'.';
-        window.open('https://wa.me/'+PHONE+'?text='+encodeURIComponent(message),'_blank','noopener,noreferrer');
-      });
-      item.append(info,consult);grid.append(item);
+<script>
+'use strict';
+/* V1.10.0 — Exclusivamente la carta digital y su navegación de regreso.
+   Los 20 registros originales se conservan sin precios ni imágenes inventadas. */
+(() => {
+  const PHONE = '50240420679';
+  const MENU = {
+    desayunos: {title:'Desayunos',note:'Opciones de desayuno identificadas en la carta.',items:['Omelette','Campesino','Típico americano','Panini de huevos','Motuleños','Chilaquiles en salsa roja','Copa de frutas con yogurt y granola','Panqueques con fruta']},
+    almuerzos: {title:'Almuerzos',note:'Platillos identificados en la sección de almuerzos.',items:['Churrasco','Pollo asado','Camarones al ajo','Mojarras fritas']},
+    cenas: {title:'Cenas',note:'El restaurante ofrece cenas. Consulta cuáles de estos platos de la carta general están disponibles por la noche.',items:['Churrasco','Pollo asado','Camarones al ajo','Mojarras fritas']},
+    postres: {title:'Postres',note:'Postres identificados en la carta proporcionada.',items:['Crepas de frutas','Crepas mixtas']},
+    bebidas: {title:'Bebidas',note:'La carta distingue bebidas calientes y frías; consulta las variedades disponibles.',items:['Bebidas calientes','Bebidas frías']}
+  };
+  const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches ?? false;
+  const groups = document.getElementById('cartaGroups');
+  const buttons = [...document.querySelectorAll('[data-carta-filter]')];
+  if (!groups || !buttons.length) return;
+  const BACK = document.querySelectorAll('[data-back-main]');
+  BACK.forEach(link => {
+    // Funciona desde /PRUEVA/carta.html, /carta.html y una demo descargada junto a la portada.
+    const isStandalone = window.location.protocol === 'file:' && /ElSol_Carta_Demo_V1_10_0\.html$/i.test(location.pathname);
+    const path = isStandalone ? 'ElSol_Demo_V1_10_0.html#menu' : 'index.html#menu';
+    link.href = new URL(path, location.href).href;
+  });
+
+  const clamp=(v,min,max)=>Math.min(max,Math.max(min,v));
+  const wrap=(v,len)=>((v%len)+len)%len;
+  const easer=t=>1-Math.pow(1-clamp(t,0,1),3);
+  const svgPath={
+    desayunos:'M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm0 4v4l3 2M3 3l2 2m14-2-2 2M2 12h2m16 0h2',
+    almuerzos:'M4 3v7c0 2 1 3 3 3v8M7 3v7M10 3v7c0 2-1 3-3 3M17 3c-3 3-4 7-4 12h4v6',
+    cenas:'M20 15a8 8 0 1 1-11-11 7 7 0 0 0 11 11ZM18 3v4m-2-2h4M4 3v3m-1-1h2',
+    postres:'M4 11h16l-2 9H6l-2-9Zm2 0 2-7h8l2 7M10 7h4M7 15h10',
+    bebidas:'M5 4h14l-2 14H7L5 4Zm3 14v3h8v-3M9 8h6M12 8v6'
+  };
+  function makeIcon(category){
+    const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+    svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('fill','none');
+    svg.setAttribute('stroke','currentColor');svg.setAttribute('stroke-width','1.35');
+    svg.setAttribute('stroke-linecap','round');svg.setAttribute('stroke-linejoin','round');
+    svg.setAttribute('aria-hidden','true');
+    const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',svgPath[category]);svg.append(path);return svg;
+  }
+
+  let activeKey='desayunos';
+  let disposeGallery=()=>{};
+  function makeCard(name,i,category,count){
+    const card=document.createElement('article');
+    card.className='circular-carta__card';
+    card.setAttribute('aria-label',`${name}, opción ${i+1} de ${count}`);
+    card.dataset.index=String(i);
+    card.dataset.category=category;
+    const decor=document.createElement('div');decor.className='circular-carta__art';decor.setAttribute('aria-hidden','true');
+    const sun=document.createElement('span');sun.className='circular-carta__art-sun';sun.append(makeIcon(category));
+    const monogram=document.createElement('span');monogram.className='circular-carta__art-name';monogram.textContent='EL SOL';
+    const halo=document.createElement('span');halo.className='circular-carta__art-halo';
+    decor.append(halo,sun,monogram);
+    const content=document.createElement('div');content.className='circular-carta__card-content';
+    const ord=document.createElement('span');ord.className='circular-carta__ordinal';ord.textContent=`${String(i+1).padStart(2,'0')} / ${String(count).padStart(2,'0')}`;
+    const title=document.createElement('h5');title.textContent=name;
+    const brand=document.createElement('span');brand.className='circular-carta__brand';brand.textContent='EL SOL DEL PUEBLO';
+    const consult=document.createElement('button');consult.className='circular-carta__consult';consult.type='button';consult.textContent='Consultar platillo';
+    consult.setAttribute('aria-label',`Consultar ${name} por WhatsApp`);
+    consult.addEventListener('click',event=>{
+      event.stopPropagation();
+      const extra=category==='cenas'?' (confirmar disponibilidad por la noche)':'';
+      const message='Hola, quisiera consultar la disponibilidad y el precio de: '+name+extra+'.';
+      window.open('https://wa.me/'+PHONE+'?text='+encodeURIComponent(message),'_blank','noopener,noreferrer');
     });
-    section.append(heading,grid);fragment.append(section);
-  });
-  cartaGroups.replaceChildren(fragment);
-  cartaBuilt = true;
-}
-function filterCarta(category) {
-  cartaFilters.forEach(button=>{
-    const active=button.dataset.cartaFilter===category;
-    button.classList.toggle('is-active',active);
-    button.setAttribute('aria-pressed',String(active));
-  });
-  cartaGroups.querySelectorAll('.carta-group').forEach(section=>{
-    section.hidden = category!=='todos' && section.dataset.cartaGroup!==category;
-  });
-  window.ElSolGooeyNav?.select(category);
-}
-buildCarta();
-cartaFilters.forEach(button=>button.addEventListener('click',()=>filterCarta(button.dataset.cartaFilter)));
+    content.append(ord,title,brand,consult);card.append(decor,content);return card;
+  }
+  function buildCategory(category){
+    disposeGallery();
+    activeKey=category;
+    const entry=MENU[category];
+    const section=document.createElement('section');section.className='carta-group circular-carta';section.dataset.cartaGroup=category;
+    section.setAttribute('aria-labelledby','cartaGroupTitle-'+category);
+    const heading=document.createElement('div');heading.className='carta-group__heading circular-carta__heading';
+    const copy=document.createElement('div');
+    const eyebrow=document.createElement('span');eyebrow.className='carta-group__kicker';eyebrow.textContent='LA CARTA / EL SOL DEL PUEBLO';
+    const title=document.createElement('h4');title.id='cartaGroupTitle-'+category;title.textContent=entry.title;
+    const note=document.createElement('p');note.textContent=entry.note;
+    const count=document.createElement('span');count.className='carta-group__count';count.textContent=entry.items.length+' opciones';
+    copy.append(eyebrow,title,note);heading.append(copy,count);
+    const shell=document.createElement('div');shell.className='circular-carta__shell';
+    shell.setAttribute('role','region');shell.setAttribute('aria-roledescription','carrusel');
+    shell.setAttribute('aria-label','Platillos y opciones de '+entry.title);
+    const stage=document.createElement('div');stage.className='circular-carta__stage';stage.tabIndex=0;
+    stage.setAttribute('aria-label','Desliza horizontalmente o utiliza las flechas para ver los productos');
+    const track=document.createElement('div');track.className='circular-carta__track';
+    const cards=entry.items.map((name,i)=>makeCard(name,i,category,entry.items.length));
+    track.append(...cards);stage.append(track);
+    const controls=document.createElement('div');controls.className='circular-carta__controls';
+    const prev=document.createElement('button');prev.type='button';prev.className='circular-carta__arrow';prev.setAttribute('aria-label','Platillo anterior');prev.textContent='‹';
+    const status=document.createElement('div');status.className='circular-carta__status';status.setAttribute('aria-live','polite');status.setAttribute('aria-atomic','true');
+    const current=document.createElement('strong');current.textContent='01';
+    const total=document.createElement('span');total.textContent=' / '+String(cards.length).padStart(2,'0');
+    const caption=document.createElement('small');caption.textContent=entry.items[0];
+    status.append(current,total,caption);
+    const next=document.createElement('button');next.type='button';next.className='circular-carta__arrow';next.setAttribute('aria-label','Siguiente platillo');next.textContent='›';
+    controls.append(prev,status,next);
+    const hint=document.createElement('p');hint.className='circular-carta__hint';hint.textContent='Desliza para explorar · Elige un platillo para consultar';
+    shell.append(stage,controls,hint);section.append(heading,shell);
+    groups.replaceChildren(section);
+
+    let pos=0, target=0, raf=0, running=true, dragged=null, impulse=0;
+    let minWidth=0;
+    const num=cards.length;
+    const layout=()=>{
+      if(!running)return;
+      const w=stage.clientWidth;
+      const mobile=w<550;
+      const cardW=mobile?clamp(w*.49,160,210):clamp(w*.28,214,270);
+      const spacing=mobile?cardW*.94:cardW*.96;
+      minWidth=spacing;
+      cards.forEach((card,i)=>{
+        let d=i-pos;
+        if(num>2){d=wrap(d,num);if(d>num/2)d-=num;}
+        if(num===2){d=i-pos;}
+        const abs=Math.abs(d);
+        const x=d*spacing;
+        const arc=Math.min(1.25,Math.abs(d));
+        const y=Math.pow(arc,1.7)*(mobile?28:50);
+        const angle=d*clamp(5+abs*1.6,5,13);
+        const scale=1-Math.min(.17,abs*.07);
+        const depth=-Math.min(abs*65,185);
+        const visibility=abs<=Math.max(2.3,w/spacing/2+.7);
+        const opacity=visibility?Math.max(.20,1-Math.max(0,abs-1.1)*.33):0;
+        card.style.width=cardW+'px';
+        card.style.transform=`translate3d(calc(-50% + ${x.toFixed(2)}px), calc(-50% + ${y.toFixed(2)}px), ${depth.toFixed(2)}px) rotate(${(-angle*.65).toFixed(2)}deg) scale(${scale.toFixed(3)})`;
+        card.style.opacity=String(opacity);
+        card.style.zIndex=String(200-Math.round(abs*15));
+        card.style.pointerEvents=visibility?'auto':'none';
+        const selected=abs<.52;
+        card.dataset.active=selected?'true':'false';
+        card.tabIndex=selected?0:-1;
+      });
+      const idx=wrap(Math.round(target),num);
+      current.textContent=String(idx+1).padStart(2,'0');
+      caption.textContent=entry.items[idx];
+      prev.disabled=num<2;next.disabled=num<2;
+    };
+    const advance=delta=>{
+      target=clamp(target+delta,0,num-1);
+      if(!reduce)animate();else{pos=target;layout();}
+    };
+    const animate=()=>{if(raf||!running)return;raf=requestAnimationFrame(tick);};
+    const tick=()=>{
+      raf=0;if(!running)return;
+      const diff=target-pos;
+      pos+=diff*.21;
+      if(Math.abs(diff)<.003)pos=target;
+      layout();if(pos!==target)animate();
+    };
+    const clickCard=event=>{
+      if(event.target.closest('button'))return;
+      const card=event.target.closest('.circular-carta__card');if(!card||!stage.contains(card))return;
+      const idx=Number(card.dataset.index);
+      if(dragged?.moved)return;
+      target=idx;
+      if(reduce){pos=target;layout();}else animate();
+    };
+    const down=event=>{
+      if(event.button!==undefined && event.button!==0 || event.target.closest('button'))return;
+      dragged={id:event.pointerId,x:event.clientX,initial:target,moved:false};
+    };
+    const move=event=>{
+      if(!dragged||dragged.id!==event.pointerId)return;
+      const dx=event.clientX-dragged.x;
+      if(Math.abs(dx)>6&&!dragged.moved){dragged.moved=true;stage.setPointerCapture?.(event.pointerId);}
+      if(!dragged.moved)return;
+      target=clamp(dragged.initial-dx/Math.max(minWidth,1),0,num-1);
+      if(reduce){pos=target;layout();}else animate();
+    };
+    let blockClickUntil=0;
+    const up=event=>{
+      if(!dragged||dragged.id!==event.pointerId)return;
+      const d=dragged;dragged=null;
+      if(d.moved){target=clamp(Math.round(target),0,num-1);blockClickUntil=performance.now()+240;if(reduce){pos=target;layout();}else animate();}
+    };
+    const click=event=>{if(performance.now()<blockClickUntil){event.preventDefault();return;}clickCard(event);};
+    const keydown=event=>{
+      if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();advance(event.key==='ArrowRight'?1:-1);}
+      if(event.key==='Home'||event.key==='End'){event.preventDefault();target=event.key==='Home'?0:num-1;animate();}
+    };
+    const wheel=event=>{
+      if(Math.abs(event.deltaX)<=Math.abs(event.deltaY)||Math.abs(event.deltaX)<3)return;
+      event.preventDefault();target=clamp(target+Math.sign(event.deltaX),0,num-1);if(reduce){pos=target;layout();}else animate();
+    };
+    const ro=typeof ResizeObserver!=='undefined'?new ResizeObserver(layout):null;
+    ro?.observe(stage);
+    prev.addEventListener('click',()=>advance(-1));next.addEventListener('click',()=>advance(1));
+    stage.addEventListener('pointerdown',down);
+    stage.addEventListener('pointermove',move);
+    stage.addEventListener('pointerup',up);
+    stage.addEventListener('pointercancel',up);
+    stage.addEventListener('click',click);
+    stage.addEventListener('keydown',keydown);
+    stage.addEventListener('wheel',wheel,{passive:false});
+    layout();
+    disposeGallery=()=>{
+      running=false;cancelAnimationFrame(raf);ro?.disconnect();
+      stage.removeEventListener('pointerdown',down);stage.removeEventListener('pointermove',move);
+      stage.removeEventListener('pointerup',up);stage.removeEventListener('pointercancel',up);
+      stage.removeEventListener('click',click);stage.removeEventListener('keydown',keydown);
+      stage.removeEventListener('wheel',wheel);
+    };
+  }
+  function select(category){
+    if(!MENU[category])return;
+    buttons.forEach(btn=>{
+      const selected=btn.dataset.cartaFilter===category;
+      btn.classList.toggle('is-active',selected);
+      btn.setAttribute('aria-pressed',String(selected));
+    });
+    buildCategory(category);
+    window.ElSolGooeyNav?.select(category);
+  }
+  buttons.forEach(btn=>btn.addEventListener('click',()=>select(btn.dataset.cartaFilter)));
+  select('desayunos');
+})();
+
 </script>
-<script>/* V1.8.0 — Adaptación nativa y localizada del GooeyNav proporcionado.
+<script>
+/* V1.8.0 — Adaptación nativa y localizada del GooeyNav proporcionado.
    WebGL2 dibuja el indicador y partículas con SDF. Alternativa CSS sin WebGL2.
    Los filtros existentes y sus controladores permanecen en app.js. */
 (() => {
@@ -2173,8 +2408,10 @@ cartaFilters.forEach(button=>button.addEventListener('click',()=>filterCarta(but
   window.ElSolGooeyNav={select,refresh, getMode:()=>gpu?'webgl2':reduced?'css':'svg'};
   refresh();
 })();
+
 </script>
-<script>/* V1.9.0 — restricciones de interfaz solicitadas.
+<script>
+/* V1.9.0 — restricciones de interfaz solicitadas.
    No impiden ver el código fuente, guardar recursos desde DevTools o tomar capturas. */
 (() => {
   'use strict';
@@ -2193,6 +2430,7 @@ cartaFilters.forEach(button=>button.addEventListener('click',()=>filterCarta(but
   ['gesturestart','gesturechange','gestureend'].forEach(type => document.addEventListener(type,event => event.preventDefault(),{passive:false}));
   document.addEventListener('touchmove', event => { if(event.touches.length>1) event.preventDefault(); },{passive:false});
 })();
+
 </script>
 </body>
 </html>
