@@ -1793,11 +1793,11 @@ body.carta-page { min-height:100dvh; background:#f7f7f1; display:flex; flex-dire
 <body class="carta-page">
   <header class="carta-page__header">
     <div class="wrap carta-page__header-inner">
-      <a class="brand" href="./" data-back-main aria-label="El Sol del Pueblo, volver a la página principal">
+      <a class="brand" href="https://novaprimegt-coder.github.io/PRUEVA/index.html?v=1.11.2" data-back-main aria-label="El Sol del Pueblo, volver a la página principal">
         <span class="brand__sun" aria-hidden="true"><span></span></span>
         <span class="brand__words"><strong>EL SOL</strong><small>DEL PUEBLO</small></span>
       </a>
-      <a class="carta-page__back" href="./" data-back-main>Volver al sitio</a>
+      <a class="carta-page__back" href="https://novaprimegt-coder.github.io/PRUEVA/index.html?v=1.11.2" data-back-main>Volver al sitio</a>
     </div>
   </header>
   <main class="carta-page__main wrap" id="carta">
@@ -1857,7 +1857,7 @@ body.carta-page { min-height:100dvh; background:#f7f7f1; display:flex; flex-dire
   // Regreso estable tanto desde PRUEVA/carta.html como desde las demos descargadas.
   document.querySelectorAll('[data-back-main]').forEach(link => {
     const standalone = /^ElSol_Carta_Demo_V[\d_]+\.html$/i.test(decodeURIComponent(location.pathname.split('/').pop() || ''));
-    const destination = standalone ? 'ElSol_Demo_V1_11_1.html' : new URL('./', window.location.href).href;
+    const destination = standalone ? 'ElSol_Demo_V1_11_1.html' : 'https://novaprimegt-coder.github.io/PRUEVA/index.html?v=1.11.2';
     link.setAttribute('href',destination);
   });
 
