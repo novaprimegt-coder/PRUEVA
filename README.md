@@ -1,16 +1,23 @@
-# Restaurante El Sol del Pueblo — V1.9.0
+# Restaurante El Sol del Pueblo — V1.11.0
 
-Sitio web de demostración del Restaurante El Sol del Pueblo, Chiantla, Huehuetenango.
+Sitio web de demostración para Restaurante El Sol del Pueblo, Chiantla, Huehuetenango.
 
 ## Archivos publicados
-- `index.html`: página principal, fotografías incrustadas, carrusel 3D, fondo topográfico, formulario de consulta y navegación.
-- `carta.html`: carta digital independiente con las categorías Desayunos, Almuerzos, Cenas, Postres y Bebidas, además de «Toda la carta». Conserva los filtros animados y las consultas por WhatsApp.
 
-Los archivos HTML son autocontenidos y no requieren carpetas adicionales para cargar estilos, imágenes o scripts propios. Las fuentes web y algunas animaciones pueden requerir conexión a Internet.
+- `index.html`: página principal (conservada sin cambios), con información del restaurante, fotografías, carrusel de «El lugar y los sabores», fondo animado y consulta de reservaciones.
+- `carta.html`: carta digital independiente V1.11.0, con cinco categorías: Desayunos, Almuerzos, Cenas, Postres y Bebidas.
 
-## Información importante
-La carta conserva los registros identificados en la versión aprobada. Los precios, la disponibilidad y las reservas deben confirmarse directamente con el establecimiento.
+## Actualización V1.11.0
 
-Las restricciones contra copia, zoom y descarga son medidas de interfaz; no pueden impedir de forma absoluta el acceso al contenido o las capturas de pantalla.
+- Presentación de platillos mediante galería curva inspirada en `CircularGallery`: renderizado WebGL2 y alternativa visual para navegadores incompatibles.
+- Desplazamiento táctil, ratón, controles y navegación por teclado.
+- Se conserva el acceso «Volver a la página», dirigido a `index.html#menu`.
+- Se mantienen los 20 registros de categoría-producto de la versión anterior y las consultas por WhatsApp.
+- No existe botón «Toda la carta». No se añadieron nombres, precios ni fotografías de platillos sin confirmar.
+- La galería utiliza portadas tipográficas para evitar asociar fotografías no verificadas con productos.
 
-**Versión:** V1.9.0 · **Rama:** `main` · **Repositorio autorizado:** `novaprimegt-coder/PRUEVA`.
+Ambos HTML son autocontenidos respecto a sus estilos y scripts propios; las tipografías web pueden requerir conexión a Internet.
+
+**Aviso:** Los productos, precios, disponibilidad de cenas y reservas deben confirmarse con el restaurante. Las restricciones de copia y zoom no garantizan impedir capturas o descarga de recursos.
+
+**Repositorio:** `novaprimegt-coder/PRUEVA` · **Rama:** `main`.
