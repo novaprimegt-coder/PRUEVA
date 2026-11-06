@@ -1,13 +1,13 @@
-# Restaurante El Sol del Pueblo — V1.11.0
+# Restaurante El Sol del Pueblo — V1.11.1
 
 Sitio web de demostración para Restaurante El Sol del Pueblo, Chiantla, Huehuetenango.
 
 ## Archivos publicados
 
 - `index.html`: página principal (conservada sin cambios), con información del restaurante, fotografías, carrusel de «El lugar y los sabores», fondo animado y consulta de reservaciones.
-- `carta.html`: carta digital independiente V1.11.0, con cinco categorías: Desayunos, Almuerzos, Cenas, Postres y Bebidas.
+- `carta.html`: carta digital independiente V1.11.1, con cinco categorías: Desayunos, Almuerzos, Cenas, Postres y Bebidas.
 
-## Actualización V1.11.0
+## Actualización V1.11.1
 
 - Presentación de platillos mediante galería curva inspirada en `CircularGallery`: renderizado WebGL2 y alternativa visual para navegadores incompatibles.
 - Desplazamiento táctil, ratón, controles y navegación por teclado.
@@ -21,3 +21,8 @@ Ambos HTML son autocontenidos respecto a sus estilos y scripts propios; las tipo
 **Aviso:** Los productos, precios, disponibilidad de cenas y reservas deben confirmarse con el restaurante. Las restricciones de copia y zoom no garantizan impedir capturas o descarga de recursos.
 
 **Repositorio:** `novaprimegt-coder/PRUEVA` · **Rama:** `main`.
+
+## Corrección V1.11.1
+- Se mantiene exclusivamente el selector de las cinco categorías, sin el botón «Toda la carta».
+- El botón «Volver al sitio» y el logotipo regresan a la portada principal sin el ancla `#menu`.
+- En caso de que el navegador conserve la versión anterior, abrir `carta.html?v=1.11.1` para solicitar una copia actualizada.
